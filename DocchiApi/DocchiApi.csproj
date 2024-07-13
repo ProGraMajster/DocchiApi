@@ -8,6 +8,11 @@
     <Title>DocchiApi</Title>
     <Authors>ProGraMajster</Authors>
     <Company />
+    <Description>Bibloteka c# do api https://api.docchi.pl/v1/</Description>
+    <PackageTags>DocchiApi;Docchi;api;c#;csharp;dotnet;</PackageTags>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Dodano nowy punkt końcowy:
+https://docchi.pl/api/search/search?</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
