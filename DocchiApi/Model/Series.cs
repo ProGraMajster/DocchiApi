@@ -15,7 +15,7 @@
         public object bg { get; set; }
         public List<string> genres { get; set; }
         public string broadcast_day { get; set; }
-        public DateTime aired_from { get; set; }
+        public string aired_from { get; set; }
         public int episodes { get; set; }
         public string season { get; set; }
         public int season_year { get; set; }

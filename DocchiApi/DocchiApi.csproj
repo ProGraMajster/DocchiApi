@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+	  <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -10,12 +10,15 @@
     <Company />
     <Description>Bibloteka c# do api https://api.docchi.pl/v1/</Description>
     <PackageTags>DocchiApi;Docchi;api;c#;csharp;dotnet;</PackageTags>
-    <Version>1.1.0</Version>
-    <PackageReleaseNotes>Dodano nowy punkt końcowy:
-https://docchi.pl/api/search/search?</PackageReleaseNotes>
+    <Version>1.2.2</Version>
+    <PackageReleaseNotes>Naprawiono błędy</PackageReleaseNotes>
   </PropertyGroup>
 
-  <ItemGroup>
+	<ItemGroup>
+		<None Include="docs\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+	<ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
