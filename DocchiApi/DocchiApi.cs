@@ -116,7 +116,6 @@ namespace DocchiApi
                     return null;
                 }
 
-                httpClient.BaseAddress = new Uri(url);
 
                 try
                 {
